@@ -88,7 +88,7 @@ npm run build
 
 ## 🌍 Live Demo
 
-👉 **[View Live Application]**
+👉 **[View Live Application](https://task-manager-snowy-tau-77.vercel.app)**
 
 ---
 
