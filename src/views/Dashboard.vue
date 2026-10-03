@@ -14,8 +14,8 @@
       <AddTask v-if="showModal" @close="showModal = false" @task-added="tasks.unshift($event)" />
     </Transition>
 
-    <div v-if="isLoading" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 m-5 mt-8">
-      <TaskSkeleton :count="6" />
+    <div v-if="isLoading" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 px-5 pb-8 pt-16">
+      <TaskSkeleton :count="8" />
     </div>
 
     <TaskList v-else-if="filteredTasks.length" :tasks="filteredTasks" @edit="editingTask = $event"
